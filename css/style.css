@@ -1878,6 +1878,10 @@ form label {
  padding: 20px;
 }
 
+.btn_confirmar .btn-margin {
+ padding-top: 15px !important;
+}
+
 .form-control {
   box-shadow: none;
   background: transparent;
