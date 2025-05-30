@@ -289,7 +289,9 @@
 		}
 		
 		.details-grid-2 {
-		    display: grid;		    
+		    display: grid;
+		    grid-template-columns: repeat(2, 1fr);
+		    gap: 5px;
 		}
 		
 		.details-card_A, .details-card_B {
@@ -385,6 +387,26 @@
         
         .map-button_2:hover {
             background-color: #aaac84;
+        }
+        
+        .map-button_3 {
+            position: relative;
+            background-color: #4e5139;
+            color: #fdfdfa;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            font-size: 18px;
+            font-family: Bellefair;
+            cursor: pointer;
+            z-index: 10;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+            text-align: left;
+        }
+        
+        .map-button_3:hover {
+            background-color: #3A3C2A;
         }
 		
         /* End of Cards */        
