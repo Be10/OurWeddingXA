@@ -1,5 +1,29 @@
 @font-face { font-family: Exmouth; src: url('Exmouth.ttf'); }
 @font-face { font-family: Bellefair; src: url('Bellefair_Regular.ttf'); }
+    
+	.loadingScreen {
+	  position: absolute;
+	  z-index: 11;
+	  width: 100%;
+	  height: 100vh;
+	  background-color: #fdfdfa;
+	  display: flex;
+	  align-content: center;
+	  align-items: center;
+	  justify-content: center;
+	  text-align: center;
+	}
+	
+	#loading_dove {
+		width: 5%;
+	}
+	
+	#loading_text {
+		font-family: Exmouth;
+		font-size: 2.8rem;
+		color: #858667;
+		margin-top: 15px;
+	}
     	
         * {
             margin: 0;
@@ -264,6 +288,10 @@
 		    gap: 30px;
 		}
 		
+		.details-grid-2 {
+		    display: grid;		    
+		}
+		
 		.details-card_A, .details-card_B {
 		    background-color: #858667;
 		    border-radius: 10px;
@@ -337,6 +365,26 @@
         
         .map-button:hover {
             background-color: #4e5139;
+        }
+        
+        .map-button_2 {
+            position: relative;
+            background-color: #858667;
+            color: #fdfdfa;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            font-size: 18px;
+            font-family: Bellefair;
+            cursor: pointer;
+            z-index: 10;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+            text-align: left;
+        }
+        
+        .map-button_2:hover {
+            background-color: #aaac84;
         }
 		
         /* End of Cards */        
@@ -567,6 +615,10 @@
 
         /* Estilos Mobile */
         @media (max-width: 768px) {
+        
+        	#loading_dove {
+			width: 20%;
+		}
         
         	body, html {
 			height: 100%;
