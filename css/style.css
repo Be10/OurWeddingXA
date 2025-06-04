@@ -114,6 +114,22 @@
 		   background-color: #4e5139;
         }
         
+        .content_D_People {
+	        display:flex;
+		   position:relative;
+		   left:0px;
+		   bottom:-35vh;
+		   justify-content:center;
+		   align-items:center;
+		   scroll-behavior: smooth;
+		   vertical-align: center;
+		   z-index: 1;
+		   border-radius: 20px;
+		   background-color: rgb(238 235 217 / 30%);
+		   backdrop-filter: blur(10px);
+		   
+        }
+        
         /* Texto principal */
         .content_A_text {
             width: 100%;
@@ -683,6 +699,13 @@
 	  	.content_D {
 		   height:100%;
 	  	}
+	  	
+	  	.content_D_People {
+	        display:flex;
+		   position:relative;
+		   left:0px;
+		   bottom: -20vh;
+        }
             
 		/* Texto principal */
 		.content_A_text {
@@ -698,7 +721,7 @@
 			z-index: 10;
 			position: relative;
 		}
-		
+				
 		.details-card_B {
 		    height: 50vh;
 		}
