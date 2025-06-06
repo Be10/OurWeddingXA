@@ -283,6 +283,10 @@
         
         /* End of Mobile Nav */
         
+        #Detalles_img {
+        	width: 50%;
+        }
+        
         /* Cards */
         
         	.container_cards {
@@ -827,5 +831,9 @@
             .mobile-menu {
                 display: block;
             }
+            
+        	#Detalles_img {
+        		width: 100%;
+        	}
 		
     }
